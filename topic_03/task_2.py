@@ -1,0 +1,21 @@
+def operations_with_list() :
+    my_list = [1, 2, 3, 4, 5, 6, 7]
+    print('Default list: ', my_list)
+    my_list.append(14)
+    print('Appended list: ', my_list )
+    my_list.extend([10, 12])
+    print('Extended list: ', my_list)
+    my_list.insert(0, "string")
+    print('Inserted list: ', my_list)
+    my_list.remove("string")
+    print('List with removed element: ', my_list)
+    my_list.sort()
+    print('Sorted list: ', my_list)
+    my_list.reverse()
+    print('Reversed list:',my_list )
+    my_list_copy = my_list.copy()
+    print('copy of my list: ', my_list_copy)
+    my_list.clear()
+    print('Cleared list: ', my_list)
+
+operations_with_list()
